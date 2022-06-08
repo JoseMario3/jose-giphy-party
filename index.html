@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giphy Party</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Giphy Party!</h1>
+
+    <img src="giphy.png" id="giphyImg" alt="Powered by Giphy" />
+
+    <form action="" method="get" class="search-area">
+        <div class="search-bar">
+            <label for="name">What type of gif to choose? </label>
+            <input type="text" name="gif" id="search-term" required />
+            <button id="clicker">Search for gifs</button>
+        </div>
+    </form>
+
+    <div id="gif-results"></div>
+
+    <button id="show-more" class="hidden">Show More</button>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
